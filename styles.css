@@ -1,0 +1,107 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Change background color to black */
+  }
+  
+  /* Container styles */
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Profile picture styles */
+  .profile-pic {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Section styles */
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section-header {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* List styles */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  /* Education section */
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Skills section */
+  .experience-item {
+    margin-bottom: 15px;
+  }
+  
+  h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Languages section */
+  .languages {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Hobbies section */
+  .hobbies {
+    font-style: italic;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
